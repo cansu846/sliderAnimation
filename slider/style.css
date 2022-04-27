@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #313131;
+}
+.slider{
+    width: 80%;
+    height: 500px;
+    background: url("r2.jpeg");
+    margin: 10% auto;
+    animation: slide 10s infinite;
+}
+@keyframes slide{
+    25%{
+        background: url("r3.jpeg");
+    }
+    50%{
+        background: url("r4.jpeg");
+    }
+    75%{
+        background: url("resim.jpg");
+    }
+    100%{
+        background: url("r2.jpeg");
+    }
+}
